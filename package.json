@@ -1,0 +1,14 @@
+{
+  "name": "techflow-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "build": "echo 'No build needed for static HTML'",
+    "preview": "npx http-server . -p 4173 -o"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
